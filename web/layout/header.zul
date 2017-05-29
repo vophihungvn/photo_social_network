@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<zk xmlns="http://www.zkoss.org/2005/zul">
+    
+    <include src="./layout/lib.zul"/>
+    <div class="navbar navbar-default">
+        <n:div class="container-fluid" style="width: 100%" xmlns:n="native">
+            <n:div class="navbar-header" style="width: 100%" xmlns:n="native">
+                <div class="col-md-12">
+                    <div class="col-md-4 text-center">
+                        <a class="navbar-brand" href="#" style="text-align: center">
+                            <n:img id="" src="https://image.freepik.com/free-icon/instagram-photo-camera-logo-outline_318-56004.jpg" width="40px"  height="40px" style="margin-top: -10px; margin-left: 100px" xmlns:n="native"/>  
+                        </a>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <image id="" src="img/chagram-logo.png" width="150px"  height="40px" style="margin-top: 5px"/>  
+                    </div>
+                    <div class="col-md-4">
+                        <n:button type="button" class="btn btn-primary pull-right" data-toggle="modal" data-target=".post-image-modal" style="margin-top: 7px" xmlns:n="native">Post Image</n:button>
+                    </div>
+                </div>
+            
+            
+            </n:div>
+        </n:div>
+    </div>
+</zk>

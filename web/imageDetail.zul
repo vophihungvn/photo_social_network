@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/4.0.2/bootstrap-material-design.css" /?>
+<?link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" ?>
+<?link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" ?>
+<zk xmlns="http://www.zkoss.org/2005/zul">
+    <style>
+            .card {
+                0 14px -1px rgba(0,0,0,0.25), 0 -3px 15px rgba(0,0,0,0.22)
+              }
+        </style>
+        <include src="./layout/header.zul"/>
+    
+        <div zclass="col-md-6 col-md-offset-3 card" style=" background-color: white;  border-radius: 2px">
+            <!-- header -->
+            <div zclass="col-md-12 card-title" style="height: 48px; border-bottom: solid 1px #ccc">
+                <div style="margin-top: 12px;  ">
+                    <image id="" src="./img/avatar.jpg" width="24px"  height="24px" style="border-radius: 50%;" />
+                    Võ Phi Hùng
+                </div>
+            </div>
+             <div zclass="col-md-12 card-image" >
+                <a href="imageDetail.zul">
+                    <image 
+                        id="" 
+                        src="https://lh5.googleusercontent.com/AWZSqEYKtQcS9M8bBgnyPLKRVZGjJ-lyF15VkkbKsrqMe6KEcIZgVLLuU01Aku0T3fW5tMVVjNSo8yjjcr7KhBl0e-gxubDCYTdJGvsx6RkGa2M8A5ui7MJbyQ" 
+                        style="width: 100%; "/>
+                </a>
+            </div>
+            <div zclass="col-md-12 card-footer" style="height: 48px; border-top: 0px">
+                <div style="margin-top: 12px;  ">
+                    <n:i class="fa fa-heart" aria-hidden="true" xmlns:n="native"></n:i> 100
+                    <n:i class="fa fa-comment-o" aria-hidden="true" xmlns:n="native"></n:i> 100
+                </div>
+            </div>
+            <div  zclass="col-md-12" style="border-top: 0px; font-size: 14px">
+                <div zclass="col-md-12" style="margin-top: 10px">
+                    <div zclass="col-md-1">
+                        <image id="" src="./img/avatar.jpg" width="24px"  height="24px" style="border-radius: 50%;" />
+                    </div>
+                    <div zclass="col-md-11">
+                        <n:b xmlns:n="native"> vo_phi_hung</n:b> this is a comment of this image <n:br xmlns:n="native"/>
+                        22 hours ago <n:span xmlns:n="native" style="color: #888; font-size: 12px">reply</n:span>
+                    </div>
+                </div>
+                <div zclass="col-md-12" style="margin-top: 10px">
+                    <div zclass="col-md-1">
+                        <image id="" src="./img/avatar.jpg" width="24px"  height="24px" style="border-radius: 50%;" />
+                    </div>
+                    <div zclass="col-md-11">
+                        <n:b xmlns:n="native"> vo_phi_hung</n:b> this is a comment of this image <n:br xmlns:n="native"/>
+                        22 hours ago <n:span xmlns:n="native" style="color: #888; font-size: 12px">reply</n:span>
+                    </div>
+                </div>
+                <div zclass="col-md-12" style="margin-top: 10px">
+                    <div zclass="col-md-1">
+                        <image id="" src="./img/avatar.jpg" width="24px"  height="24px" style="border-radius: 50%;" />
+                    </div>
+                    <div zclass="col-md-11">
+                        <n:b xmlns:n="native"> vo_phi_hung</n:b> this is a comment of this image <n:br xmlns:n="native"/>
+                        22 hours ago <n:span xmlns:n="native" style="color: #888; font-size: 12px">reply</n:span>
+                    </div>
+                </div>
+                <div zclass="col-md-12" style="margin-top: 10px">
+                    <div zclass="col-md-1">
+                        <image id="" src="./img/avatar.jpg" width="24px"  height="24px" style="border-radius: 50%;" />
+                    </div>
+                    <div zclass="col-md-11">
+                        <n:b xmlns:n="native"> vo_phi_hung</n:b> this is a comment of this image <n:br xmlns:n="native"/>
+                        22 hours ago <n:span xmlns:n="native" style="color: #888; font-size: 12px">reply</n:span>
+                    </div>
+                </div>
+            </div>
+        </div>
+</zk>

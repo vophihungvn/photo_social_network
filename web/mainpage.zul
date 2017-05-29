@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/4.0.2/bootstrap-material-design.css" /?>
+<?link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" ?>
+<?link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" ?>
+<div>
+        <style>
+            .card {
+                0 14px -1px rgba(0,0,0,0.25), 0 -3px 15px rgba(0,0,0,0.22)
+              }
+        </style>
+        <include src="./layout/header.zul"/>
+        <script type="text/javascript" src="js/mainpage.js?a=xâhfudiadsaxzhesdadsasda7i"></script>
+        <div zclass="col-md-12 view-list" >
+           
+        </div>
+        
+        <div zclass="modal post-image-modal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <n:button type="button" class="close" data-dismiss="modal" aria-hidden="true"  xmlns:n="native">×</n:button>
+                      <n:h2 xmlns:n="native">Post new image </n:h2>
+                    </div>
+                    <div class="modal-body">
+                        <div zclass="row">
+                            <div zclass="col-md-12">
+                                <n:label class="btn btn-primary" for="my-file-selector" xmlns:n="native" style="text-transform: none">
+                                    <n:input 
+                                        id="my-file-selector" 
+                                        zclass="input-file" 
+                                        type="file" 
+                                        style="display:none;"  
+                                        xmlns:n="native"
+                                        onchange="loadFile(event)" 
+                                    />
+                                    Upload file
+                                </n:label>
+                                <n:button class="btn btn-primary pull-right" onclick="clearFilter()" xmlns:n="native" style="text-transform: none">
+                                    Clear Filter
+                                </n:button>
+                            </div>
+                            <div zclass="col-md-12" style="margin-top: 20px">
+                                <image zclass="preview-image" src="./img/preview.png" style="width: 100%"/>
+                            </div>
+                            
+                            <div zclass="col-md-12" style="margin-top: 20px">
+                                <div zclass="col-md-12">
+                                    <n:h5 xmlns:n="native">Choose a filter:</n:h5>
+                                </div>
+                                <div zclass="col-md-3 text-center">
+                                    <n:img id="" src="./img/filter/Sharpness.png"  style="width: 100%" onclick="filterImage(0)"  xmlns:n="native"/>
+                                    Sharpness
+                                </div>
+                                <div zclass="col-md-3 text-center">
+                                    <n:img id="" src="./img/filter/Brightness.png" onclick="filterImage(1)"  style="width: 100%" xmlns:n="native"/>
+                                    Brightness
+                                </div>
+                                <div zclass="col-md-3 text-center">
+                                    <n:img id="" src="./img/filter/GrayScale.png" onclick="filterImage(2)"  style="width: 100%" xmlns:n="native"/>
+                                    Gray Scale
+                                </div>
+                                <div zclass="col-md-3 text-center">
+                                    <n:img id="" src="./img/filter/Blur.png" onclick="filterImage(3)"  style="width: 100%" xmlns:n="native"/>
+                                    Blur
+                                </div>
+                            </div>
+                            <div zclass="col-md-12" style="margin-top: 20px">
+                                <div zclass="col-md-12">
+                                    <n:h5 xmlns:n="native">Description:</n:h5>
+                                </div>
+                                <div zclass="col-md-12">
+                                    <n:textarea class="form-control img-content" xmlns:n="native" style="width: 100%; font-size: 12px" rows="5"></n:textarea>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="modal-footer">
+                      <n:button type="button" class="btn btn-default" data-dismiss="modal" xmlns:n="native">Discard</n:button>
+                      <n:button type="button" class="btn btn-primary" xmlns:n="native" onclick="uploadImage()">Save changes</n:button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+</div>

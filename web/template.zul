@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Latest compiled and minified CSS -->
+<?link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/4.0.2/bootstrap-material-design.css" /?>
+<?link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" ?>
+<?link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" ?>
+
+
+<zk xmlns="http://www.zkoss.org/2005/zul">
+    <window>
+        <style>
+            .card {
+                0 14px -1px rgba(0,0,0,0.25), 0 -3px 15px rgba(0,0,0,0.22)
+              }
+        </style>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+        
+	<div class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                <a class="navbar-brand" href="#" style="text-align: center">
+                  <image id="" src="http://sporvognsrejser.dk/fotos/logoer/graakallbanen_gb.png" width="30px"  height="30px"/>
+                  
+                </a>
+                </div>
+            </div>
+        </div>
+        <div zclass="col-md-12">
+            <apply template="center"/>
+        </div>
+    </window>
+</zk>
